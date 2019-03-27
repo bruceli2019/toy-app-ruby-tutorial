@@ -372,6 +372,7 @@ DEPENDENCIES
   binding_of_caller
   byebug
   capybara
+  coffee-rails (= 4.2.2)
   console_ip_whitelist!
   dev_toolbar!
   devise

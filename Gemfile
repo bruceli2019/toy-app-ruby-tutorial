@@ -14,6 +14,10 @@ gem "sass-rails", "~> 5.0"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "uglifier", ">= 1.3.0"
 
+#below are gems copied from Listing 2.1 in Chapter 2 (turbolinks, jquery-rails
+#were already installed on more advanced versions)
+gem 'coffee-rails', '4.2.2'
+
 group :production do
   gem "pg"
   gem "rails_12factor"
